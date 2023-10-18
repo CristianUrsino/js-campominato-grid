@@ -1,0 +1,22 @@
+main .btn{
+    display: block;
+    margin: 100px auto;
+}
+.grid{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    background-color: black;
+}
+.box{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid white;
+    box-shadow: 1px 1px 7px rgb(184, 181, 181) inset;
+}
+.clicked{
+    background-color: aquamarine;
+    box-shadow: 1px 1px 15px rgb(184, 181, 181) inset;
+}
