@@ -3,7 +3,7 @@ body{
 }
 main .btn{
     display: block;
-    margin: 100px auto;
+    margin: 20px auto;
 }
 .grid{
     width: 598px;
@@ -15,8 +15,6 @@ main .btn{
 }
 .box{
     margin: 0;
-    width: calc(100% / 10);
-    height: calc(100% / 10);
     border: 1px solid white;
     box-shadow: 1px 1px 7px rgb(184, 181, 181) inset;
     display: flex;
